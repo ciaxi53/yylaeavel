@@ -13,7 +13,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::post('/login', [AuthApiController::class, 'login']);
-Route::post('/login', [AuthApiController::class, 'login']);
 
  
 Route::get('/users', [UserApiController::class, 'index']);       // عرض كل المستخدمين
